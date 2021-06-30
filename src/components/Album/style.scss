@@ -1,0 +1,13 @@
+.album {
+  background: lightblue;
+  border: 1px solid gray;
+  &__title {
+    color: yellow;
+  }
+  &__sub {
+    color: red;
+		&--active {
+			color: green;
+		}
+  }
+}
